@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto TalentoTech</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Ordenar por Grupo</h1>
+      <div class="instrucciones">
+        <p>Arrastra y suelta los elementos en los grupos correspondientes.</p>
+      </div>
+      <div class="grupos">
+        <div class="grupo" id="grupo-html">
+          <h2>HTML</h2>
+        </div>
+        <div class="grupo" id="grupo-css">
+          <h2>CSS</h2>
+        </div>
+      </div>
+      <div class="elementos">
+        <div class="elemento" draggable="true" data-group="html">Div</div>
+        <div class="elemento" draggable="true" data-group="css">Flexbox</div>
+        <div class="elemento" draggable="true" data-group="html">Span</div>
+        <div class="elemento" draggable="true" data-group="css">Grid</div>
+        <div class="elemento" draggable="true" data-group="html">Header</div>
+        <div class="elemento" draggable="true" data-group="css">Margin</div>
+        <div class="elemento" draggable="true" data-group="html">Section</div>
+        <div class="elemento" draggable="true" data-group="css">Padding</div>
+      </div>
+    </div>
+    <div class="contenedor-pdf">
+      <iframe src="CV/cv.pdf" width="100%" height="500px"></iframe>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

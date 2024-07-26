@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.instrucciones {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.grupos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.grupo {
+    width: 45%;
+    padding: 15px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    min-height: 300px;
+    background-color: #fafafa;
+    transition: background-color 0.3s;
+}
+
+.grupo h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.elementos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.elemento {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.elemento:active {
+    transform: scale(0.95);
+}
+
+.correcto {
+    background-color: #c8e6c9;
+}
+
+.incorrecto {
+    background-color: #ffcdd2;
+}
+
+.contenedor-pdf {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contenedor-pdf iframe {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
